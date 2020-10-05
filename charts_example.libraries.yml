@@ -1,0 +1,18 @@
+html2pdf.html2pdfjs:
+  header: true
+  license:
+    name: MIT
+  js:
+    https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js: { type: external, minified: true }
+
+charts_example:
+  preprocess: false
+  js:
+    js/playground.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings
+    - charts_example/html2pdf.html2pdfjs
+

@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Chart example - save page to PDF.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function charts_example_theme($existing, $type, $theme, $path) {
+  return [
+    'charts_pdf_button' => [
+      'variables' => [
+        'convert_to_pdf' => NULL,
+        'convert_to_pdf_settings' => NULL,
+      ],
+      'template' => 'charts-pdf-button',
+    ]
+  ];
+}

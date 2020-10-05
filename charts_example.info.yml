@@ -1,0 +1,6 @@
+name: Charts Example
+description: Demonstrates how to save page (with SVG) to PDF.
+type: module
+package: 'Example modules'
+core: 8.x
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,7 @@
+charts_example.charts:
+  path: 'charts-example/chart/pdf'
+  defaults:
+    _controller: '\Drupal\charts_example\Controller\ChartsExampleController::action'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'

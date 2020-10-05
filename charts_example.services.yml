@@ -1,0 +1,5 @@
+services:
+  charts_example.route_subscriber:
+    class: Drupal\charts_example\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
